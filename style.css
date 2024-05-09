@@ -3,7 +3,7 @@ main{
     overflow: hidden;
     margin:0;
     height:1200px;
-    background-image:url(https://firebasestorage.googleapis.com/v0/b/macband-cf215.appspot.com/o/Mac%20photo%2F—Pngtree—grey%20rice%20paper%20texture%20newspaper_1651285.png?alt=media&token=8e0d43d1-6cee-4c57-943b-94dd1238d04b);
+    
 }
 body{
     margin:0;
@@ -30,19 +30,32 @@ body{
 .icon{
     width:70px;
     margin: 0px 40px 20px 0px;
+    transition:0.5s;
+}
+.icon:hover{
+    transform: scale(120%);
+    transition:0.5s;
 }
 .main-body{
     width:100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
+    text-align: left;
+    margin:100px;
 }
 #photo{
     width:90%;
 }
 #legtext{
-    text-align: center;
+    margin:100px;
+    text-align: right;
     font-size:20px;
-
+}
+#titletext{
+    font-size:40px;
+    color:rgb(200,200,200);
+    font-weight: bold;
+}
+#text{
+    color:rgb(100,100,100);
+    font-size:20px;
 }
